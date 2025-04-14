@@ -21,7 +21,7 @@ Este proyecto fue desarrollado como parte del reto técnico para la gerencia ana
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/gerencia-analitica-inversiones.git
+   git clone https://github.com/Jhincapieu/gerencia-analitica-inversiones.git
    cd gerencia-analitica-inversiones
    ```
 
