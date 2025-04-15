@@ -9,10 +9,10 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 
 
-cat_perfil_riesgo=pd.read_csv("cat_perfil_riesgo.csv")
-catalogo_activos=pd.read_csv("catalogo_activos.csv")
-catalogo_banca=pd.read_csv("catalogo_banca.csv")
-historico_aba_macroactivos=pd.read_csv("historico_aba_macroactivos.csv")
+cat_perfil_riesgo=pd.read_csv("app\cat_perfil_riesgo.csv")
+catalogo_activos=pd.read_csv("app\catalogo_activos.csv")
+catalogo_banca=pd.read_csv("app\catalogo_banca.csv")
+historico_aba_macroactivos=pd.read_csv("app\historico_aba_macroactivos.csv")
 print(historico_aba_macroactivos.dtypes)
 tabDict= {"cat_perfil_riesgo" : cat_perfil_riesgo ,"catalogo_activos":catalogo_activos,"catalogo_banca":catalogo_banca,"historico_aba_macroactivos":historico_aba_macroactivos}
 #Mapeo de los tipos de datos de pandas a PostgreSQL
